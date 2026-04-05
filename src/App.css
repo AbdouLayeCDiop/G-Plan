@@ -13,12 +13,18 @@ body {
 
 hr {
   border: none;
+  width: 300px;
+  opacity: 0.3;
 }
 
 .rounded {
-  width: 100%;
   border-top: 3px solid rgb(0, 0, 0);
   border-radius: 3px;
+}
+
+@keyframes subheader_enter {
+  from {transform: translateY(-30px); opacity: 0}
+  to {transform: translateY(0px); opacity: 0.5}
 }
 
 #header, #subheader {
@@ -31,6 +37,7 @@ hr {
 #subheader {
   margin-bottom: 30px;
   opacity: 0.5;
+  animation: subheader_enter 1s ease;
 }
 
 #main {

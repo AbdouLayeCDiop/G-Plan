@@ -1,5 +1,5 @@
 import "./App.css";
-import {useState} from "react";
+import {useState,useEffect} from "react";
 import {Check, X, CircleX, CirclePlus} from "lucide-react";
 
 function App() {
@@ -9,6 +9,21 @@ function App() {
   const [sets, setSets] = useState("");
   const [reps, setReps] = useState("");
   const [c_color, setColor] = useState("rgb(255,255,255)");
+  const [quote, setQuote] = useState("");
+
+  async function randomizeQuote() {
+    try {
+      const response = await fetch("https://zenquotes.io/api/random");
+      const data = await response.json();
+      setQuote(data[0].q);
+    }
+    catch(err) {
+      console.error("Failed to fetch quote. Using default quote instead.");
+      const default_quotes = ["The only bad workout is one that didn't happen!","No pain, no gain!","You got this!","Make this one count!","Push yourself when no one else can!"];
+      setQuote(default_quotes[Math.floor(Math.random() * default_quotes.length)]);
+    }
+  }
+  useEffect(() => {randomizeQuote();}, []);
 
   function playSound(sound, vol) {
     let sfx = new Audio("/sounds/" + sound);
@@ -50,7 +65,7 @@ function App() {
   return (
     <div>
       <h1 id="header">G-Plan</h1>
-      <h2 id="subheader">What's going on today?</h2>
+      <h2 id="subheader">{quote}</h2>
       <div id="main">
         <div id="input_controls">
           <div className="input_row">
