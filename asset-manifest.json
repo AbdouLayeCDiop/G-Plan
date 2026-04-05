@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.0886e426.css",
-    "main.js": "/your-repo-name/static/js/main.553de905.js",
-    "static/js/453.a3b9527b.chunk.js": "/your-repo-name/static/js/453.a3b9527b.chunk.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.0886e426.css.map": "/your-repo-name/static/css/main.0886e426.css.map",
-    "main.553de905.js.map": "/your-repo-name/static/js/main.553de905.js.map",
-    "453.a3b9527b.chunk.js.map": "/your-repo-name/static/js/453.a3b9527b.chunk.js.map"
+    "main.css": "/G-Plan/static/css/main.0886e426.css",
+    "main.js": "/G-Plan/static/js/main.eb73c62d.js",
+    "static/js/453.a3b9527b.chunk.js": "/G-Plan/static/js/453.a3b9527b.chunk.js",
+    "index.html": "/G-Plan/index.html",
+    "main.0886e426.css.map": "/G-Plan/static/css/main.0886e426.css.map",
+    "main.eb73c62d.js.map": "/G-Plan/static/js/main.eb73c62d.js.map",
+    "453.a3b9527b.chunk.js.map": "/G-Plan/static/js/453.a3b9527b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0886e426.css",
-    "static/js/main.553de905.js"
+    "static/js/main.eb73c62d.js"
   ]
 }
