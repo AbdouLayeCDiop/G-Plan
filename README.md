@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# G-Plan
+This website includes a few intuitive features to help you track exercises during a workout, so you can stay on track with your routine.
+## Inspiration
+As someone who regularly works out at the gym, organization is extremely helpful when it comes to keeping track of workouts. That's where the idea for G-Plan came in. I wanted to create a simple web application that allowed me to organize a list of exercises I planned on completing throughout a workout, each entry containing essential information such as rep and set counts.
+## Features
+- Add Exercise
+  - Specify the name of the exercise, the sets, and the number of reps you plan on doing, then add it to the list
+- Remove Exercise
+  - Delete any exercise of your choosing as soon as you complete it or if your workout plan has changed
+## Controls
+- Inputs (required)
+- - Exercise Input - Enter the name of an exercise under 30 characters
+- - Sets Input - Enter the number of sets for the exercise, in an amount ranging from 1 to 10
+- - Reps Input - Enter the number of reps within each set of the exercise, in an amount ranging from 1 to 100
+- Inputs (optional)
+- - Color - Optionally, pick the desired color of the exercise card that will be added to the list
+## Tech Stack
+Built with React.js and CSS
+## Screenshots
+<img width="1919" height="822" alt="Screenshot 2026-04-05 183010" src="https://github.com/user-attachments/assets/c148aac8-64b5-47fe-a46d-4051184b0dd6" />
+<img width="1919" height="819" alt="Screenshot 2026-04-05 183239" src="https://github.com/user-attachments/assets/3b0649a0-1fe0-4346-93e3-dbf45911bb1c" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
